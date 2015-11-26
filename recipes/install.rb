@@ -10,7 +10,7 @@ user node[:spark_terasort][:user] do
   not_if "getent passwd #{node[:spark_terasort]['user']}"
 end
 
-group node[:spark-terasort][:group] do
+group node[:spark_terasort][:group] do
   action :modify
   members ["#{node[:spark_terasort][:user]}"]
   append true
