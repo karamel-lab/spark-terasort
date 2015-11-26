@@ -1,0 +1,8 @@
+dependencies:
+  - recipe: spark-terasort::install
+  - recipe: spark-terasort::experiment
+    local:
+      - spark-terasort::install
+    global:
+
+
