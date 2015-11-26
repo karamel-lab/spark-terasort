@@ -5,8 +5,8 @@ license          "Apache v2.0"
 description      'Installs/Configures/Runs spark-terasort'
 version          "0.1"
 
-recipe            "spark-terasort::install", "Experiment setup for spark-terasort"
-recipe            "spark-terasort::experiment",  "configFile=; Experiment name: experiment"
+recipe            "spark_terasort::install", "Experiment setup for spark-terasort"
+recipe            "spark_terasort::experiment",  "configFile=; Experiment name: experiment"
 
 
 depends "kagent"
@@ -19,11 +19,11 @@ end
 
 
 
-attribute "spark-terasort/group",
+attribute "spark_terasort/group",
 :description => "group parameter value",
 :type => "string"
 
-attribute "spark-terasort/user",
+attribute "spark_terasort/user",
 :description => "user parameter value",
 :type => "string"
 
