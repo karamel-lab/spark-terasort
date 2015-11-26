@@ -1,8 +1,8 @@
 
 script 'run_experiment' do
   cwd "/tmp"
-  user node['spark-terasort']['user']
-  group node['spark-terasort']['group']
+  user node['spark_terasort']['user']
+  group node['spark_terasort']['group']
   interpreter "bash"
   code <<-EOM
 wget https://s3-eu-west-1.amazonaws.com/karamel/terasort_2.10-0.0.1.jar
