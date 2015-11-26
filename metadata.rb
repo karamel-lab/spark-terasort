@@ -2,7 +2,7 @@ name             'spark_terasort'
 maintainer       "spark-terasort"
 maintainer_email "shelanrc@gmail.com"
 license          "Apache v2.0"
-description      'Installs/Configures/Runs spark-terasort'
+description      'Installs/Configures/Runs spark_terasort'
 version          "0.1"
 
 recipe            "spark_terasort::install", "Experiment setup for spark-terasort"
