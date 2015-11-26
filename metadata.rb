@@ -1,4 +1,4 @@
-name             'spark-terasort'
+name             'spark_terasort'
 maintainer       "spark-terasort"
 maintainer_email "shelanrc@gmail.com"
 license          "Apache v2.0"
