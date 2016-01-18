@@ -19,11 +19,11 @@ end
 
 
 
-attribute "terasort/group",
+attribute "spark_terasort/group",
 :description => "group parameter value",
 :type => "string"
 
-attribute "terasort/user",
+attribute "spark_terasort/user",
 :description => "user parameter value",
 :type => "string"
 
